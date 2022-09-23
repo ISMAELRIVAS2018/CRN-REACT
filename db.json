@@ -1,0 +1,28 @@
+{
+  "clientes": [
+    {
+      "nombre": "rivas ",
+      "empresa": "sgfdsagzdsg",
+      "email": "rivas.ivan2018@gmail.com",
+      "telefono": "78882435",
+      "notas": "hola amigo todo esta bien ",
+      "id": 1
+    },
+    {
+      "nombre": "ismael ivan rivas",
+      "empresa": "papi",
+      "email": "reinadelcchavez@gmail.com",
+      "telefono": "78568458",
+      "notas": "no se que pasa viejo ",
+      "id": 2
+    },
+    {
+      "nombre": "coreas glande",
+      "empresa": "papi",
+      "email": "danieldubonxd@gmail.com",
+      "telefono": "88511548",
+      "notas": "quiero dinero ",
+      "id": 3
+    }
+  ]
+}
