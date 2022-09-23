@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom'
 import Spinner from '../components/Spinner'
 
 const Vercliente = () => {
+  
   const [cliente, setCliente] = useState({})
   const [cargando, setCargando] = useState(true)
 
