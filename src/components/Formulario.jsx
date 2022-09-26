@@ -5,6 +5,7 @@ import * as Yup from 'yup'
 import Alerta from './Alerta';
 import Spinner from './Spinner';
 
+
 const Formulario = ({cliente, cargando}) => {
 
   const navigate = useNavigate()
@@ -67,6 +68,9 @@ const Formulario = ({cliente, cargando}) => {
     } catch (error) {
       console.log(error)
     }
+    //Metodo del filtrado
+
+    //Funcion de busqueda
   }
   return (
     cargando? <Spinner/> :(
