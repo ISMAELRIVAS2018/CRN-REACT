@@ -27,9 +27,11 @@ const Vercliente = () => {
     obtenerClientesApi()
   }, [])
   return (
+    
     cargando ? <Spinner /> : Object.keys(cliente).length === 0 ? <p>No Hay Resultados</p> : (
+      <div class="p-6 max-w-sm mx-auto bg-white rounded-xl shadow-lg flex items-center space-x-4">
+      
       <div>
-
         <h1 className='font-black text-4xl text-blue-900'>Vercliente: {cliente.nombre}</h1>
         <p className='mt-3'>Informacion del cliente </p>
 
@@ -64,6 +66,7 @@ const Vercliente = () => {
             {cliente.notas}</p>
         )}
 
+      </div>
       </div>
     )
   )

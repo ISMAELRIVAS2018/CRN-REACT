@@ -1,14 +1,6 @@
 {
   "clientes": [
     {
-      "nombre": "Ismael Ivan Rivas",
-      "empresa": "Elanin",
-      "email": "reinadelcchavez@gmail.com",
-      "telefono": "78568458",
-      "notas": "Hp es una buena empresa",
-      "id": 2
-    },
-    {
       "nombre": "Alirio Coreas",
       "empresa": "Conexion",
       "email": "danieldubonxd@gmail.com",
